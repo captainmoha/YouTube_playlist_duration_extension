@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style>
+
+		html {
+			-webkit-box-shadow: inset 0 0 7px #000000;
+			width: 150px;
+		}
+
+		body {
+			background-color: #FF8705;
+			border: none;
+
+		}
+
+		h2 {
+			color: white;
+			font-family: monospace;
+			text-transform: uppercase;
+		}
+		
+		#getDuration {
+			margin-top: 15px;
+			padding: 10px;
+			background: #130035 ;
+			color: white;
+			border-style: dashed;
+			box-shadow: 10px;
+			border-radius: 10px;
+		}
+
+		#getDuration:hover {
+			text-shadow: 0 0 10px #fff;
+			border-color: rgba(0, 100, 255, 1);
+		}
+
+	</style>
+	<title>Youtube playlist duration viewer</title>
+	<script src="popup.js"></script>
+</head>
+<body>
+	<h2>Duration Viewer</h2>
+	<button id="getDuration">Get playlist duration!</button>
+	<!-- todo :  make the result appear inside the popup-->
+</body>
+</html>
