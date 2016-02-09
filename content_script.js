@@ -32,7 +32,7 @@ for (var i = 0; i < vidLengths.length; i++) {
 	}
 }
 console.log(totalSecs);
-var h = ~~(totalSecs / (60*60));	// ~~ double bitwise not used to do integer division
+var h = ~~(totalSecs / (60*60));	// ~~ double bitwise "not" used to do integer division
 var m = ~~(totalSecs/60) - h*60;
 var s = totalSecs - (h*60*60 + m*60);
 
